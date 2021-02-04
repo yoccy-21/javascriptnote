@@ -45,7 +45,7 @@
         </tr>
         <tr>
           <td>let 〇〇 = △△</td>
-          <td>値の再代入が可能(let 〇〇 = △△の後、〇〇 = ✕✕が可能) 2度使いはNG<br>varという書き方もあるが古く問題あり</td>
+          <td>値の再代入が可能な変数(let 〇〇 = △△の後、〇〇 = ✕✕が可能) 2度使いはNG<br>varという書き方もあるが古く問題あり</td>
         </tr>
         <tr>
           <td>定数/変数の命令規則 その1</td>
@@ -93,6 +93,26 @@
         <tr>
           <td>論理演算子</td>
           <td>&& なおかつ(AND)、|| もしくは(OR)、! ではない(NOT)</td>
+        </tr>
+        <tr>
+          <td>switch () { <br>case '':console.log() ;<br>break;｝</td>
+          <td>switch()がcase''のときに:からbreak;まで処理を実行する。caseを続けて複製するとorの命令になる。<br>どれにも当てはまらない時の命令はdefault:を使う。defaultもbreakを使う。<br>caseに||は使用できない。</td>
+        </tr>
+        <tr>
+          <td>switch () { <br>case '':console.log() ;<br>break;｝</td>
+          <td>switch()がcase''のときに:からbreak;まで処理を実行する。caseを続けて複製するとorの命令になる。<br>どれにも当てはまらない時の命令はdefault:を使う。defaultもbreakを使う。<br>caseに||は使用できない。</td>
+        </tr>
+        <tr>
+          <td>for</td>
+          <td>特定の処理を繰り返し実行する命令＝ループ処理<br>回数が決まっている繰り返しに向いている</td>
+        </tr>
+        <tr>
+          <td>テンプレートリテラル</td>
+          <td>数値を文字列に変換する方法。``（バッククオート）に数値を埋め込む${}で表現。</td>
+        </tr>
+        <tr>
+          <td>while</td>
+          <td>条件を満たしている間、特定の処理を実行する命令。<br>その状態になるまで繰り返す」ではなく「その状態である限り繰り返す」<br>不定回数の条件によって終了が決まる繰り返しに向いている</td>
         </tr>
       </tbody>
     </table>
