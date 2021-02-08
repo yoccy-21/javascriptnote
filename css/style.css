@@ -1,0 +1,11 @@
+table {
+  border: 2px solid rgb(80, 109, 148);
+}
+
+body {
+  font-size: 14px;
+}
+
+table th, table td {
+  border: 1px solid black;
+}
